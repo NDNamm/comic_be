@@ -5,8 +5,8 @@ import {
     updateComic,
     findComicById,
     deleteComic
-} from "../models/Comics.model.js";
-import { findGenreById } from "../models/Genres.model.js";
+} from "../models/comics.model.js";
+import { findGenreById } from "../models/genres.model.js";
 import { extractPublicId } from '../utils/extractPublicId.js';
 import deleteImage from '../utils/deleteImage.js';
 import slugify from "../utils/slug.js";
